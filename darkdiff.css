@@ -1,0 +1,98 @@
+.grey-text.text-darken-4 {
+	color: #424242!important
+}
+.pagination li {
+	color: gray
+}
+.pagination li a {
+	color: gray
+}
+
+.page-footer .footer-copyright {
+	color: white
+}
+table.striped>tbody>tr:nth-child(odd){
+	background-color: #212121
+}
+.collection {
+	border: 1px solid #2d2d2d;
+}
+.collection .collection-item {
+	background-color: #121212;
+	border-bottom: #2d2d2d
+}
+.card,
+.card-panel {
+	background-color: #121212
+}
+.card .card-reveal {
+	background-color: #1d1d1d
+}
+.tabs {
+	background-color: rgba(255,255,255,0.05)
+}
+.tabs .tab a.active,
+.tabs .tab a.hover {
+	background-color: rgba(255, 255, 255, 0.03)
+}
+.dropdown-content {
+	background-color: #333
+}
+.dropdown-content li {
+	color: #222
+}
+.dropdown-content li.active,
+.dropdown-content li.selected,
+.dropdown-content li.hover {
+	background-color: #555
+}
+.dropdown-content li.active.selected {
+	background-color: #555
+}
+.collapsable-header {
+	background-color: #212121
+}
+.select-wrapper span.caret.disabled {
+	color: gray
+}
+.select-wrapper span.caret {
+	color: white
+}
+.select-wrapper span.caret.disabled {
+	color: gray;
+}
+
+.side-nav {
+	background-color: #212121
+	color: #fff
+}
+
+.side-nav li>a {
+	color: white;
+}
+
+.picker-box {
+	background: #d1d1d1
+}
+@media (min-height:28.875em) {
+	.picker__box {
+		border: transparent;		
+	    border-top-color: transparent;
+	}
+}
+.picker__select--year.browser-default {
+	background-color: #323232;
+}
+body {
+	background: black;
+	color: white
+}
+.typo-logo{
+	filter: invert(1)
+}
+.main .logo img {
+	filter: invert(1)
+}
+.nav-panel-item .material-icons {
+	color: white
+}
