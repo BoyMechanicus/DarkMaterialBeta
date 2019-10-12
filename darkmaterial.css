@@ -10257,7 +10257,7 @@ main {
 }
 
 #main .logo img {
-    filter: invert(100%);
+    filter: invert(1);
     height: 100pt;
     width: 100pt
 }
