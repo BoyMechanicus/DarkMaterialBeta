@@ -2708,7 +2708,7 @@ ul.staggered-list li {
     -ms-flex-align: center;
     align-items: center;
     padding: 10px 0;
-    color: black;
+    color: white;
     background-color: rgba(51, 51, 51, .08)
 }
 
@@ -4021,7 +4021,7 @@ nav ul a span.badge {
 }
 
 nav {
-    color: #000;
+    color: #fff;
     background-color: #ee6e73;
     width: 100%;
     height: 56px;
@@ -10300,7 +10300,7 @@ nav ul a:hover {
 .nav-panel-item .material-icons {
     height: 46px;
     line-height: 46px;
-    color: black;
+    color: white;
 }
 
 .nav-input {
