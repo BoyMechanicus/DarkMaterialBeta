@@ -4220,7 +4220,7 @@ nav .input-field label i {
 }
 
 nav .input-field label.active i {
-    color: #fff
+    color: #fff;
 }
 
 .navbar-fixed {
@@ -15409,7 +15409,7 @@ nav ul a:hover {
 }
 
 .nav-panels .input-field input:focus {
-    background-color: #fff;
+    background-color: #242424;
     border: 0;
     box-shadow: none;
     color: #444
@@ -15435,7 +15435,8 @@ nav ul a:hover {
     display: flex;
     flex: 1;
     flex-wrap: nowrap;
-    align-items: center
+    align-items: center;
+    background:  #242424;
 }
 
 .input-field.nav-panel-add.disabled,
@@ -15918,6 +15919,9 @@ screen and (min-width:1201px) and (max-width:1250px) {
         display: none
     }
 }
-
+/*input#entry_url,
+input#search_entry_term {
+	background: #242424
+}*/
 
 /*# sourceMappingURL=material.css.map*/
