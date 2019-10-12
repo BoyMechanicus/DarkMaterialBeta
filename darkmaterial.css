@@ -5626,7 +5626,7 @@ button.btn-floating {
 .side-nav .collapsible-body,
 .side-nav.fixed .collapsible-body {
     border: 0;
-    background-color: #fff
+    background-color: #2d2d2d
 }
 
 .side-nav .collapsible-body li a,
@@ -7059,7 +7059,7 @@ input[type=range]:focus::-ms-fill-upper {
     line-height: 48px;
     margin: 0 32px 0 0;
     width: 24px;
-    color: rgba(0, 0, 0, .54)
+    color: rgba(255, 255, 255, .54)
 }
 
 .side-nav .divider {
@@ -8669,13 +8669,13 @@ button.picker__today:focus {
 
 .annotator-hl {
     background: #ffff0a;
-    background: rgba(255, 255, 10, .3);
+    background: rgba(255, 255, 10, .8);
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#4DFFFF0A, endColorstr=#4DFFFF0A)"
 }
 
 .annotator-hl-temporary {
     background: #007cff;
-    background: rgba(0, 124, 255, .3);
+    background: rgba(0, 124, 255, .8);
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#4D007CFF, endColorstr=#4D007CFF)"
 }
 
@@ -8745,8 +8745,7 @@ button.picker__today:focus {
     bottom: 15px;
     left: -18px;
     min-width: 265px;
-    background-color: #fbfbfb;
-    background-color: hsla(0, 0%, 98%, .98);
+    background-color: #212121;
     border: 1px solid #7a7a7a;
     border: 1px solid hsla(0, 0%, 48%, .6);
     -webkit-border-radius: 5px;
@@ -8836,7 +8835,7 @@ button.picker__today:focus {
 .annotator-viewer div:first-of-type {
     padding-top: 12px;
     padding-bottom: 12px;
-    color: #3c3c3c;
+    color: #e9e9e9;
     font-size: 13px;
     font-style: italic;
     line-height: 1.3;
@@ -8964,7 +8963,8 @@ button.picker__today:focus {
 
 .annotator-editor .annotator-item input:focus,
 .annotator-editor .annotator-item textarea:focus {
-    background-color: #f3f3f3;
+    background-color: #424242;
+    color: white;
     outline: none
 }
 
@@ -8989,10 +8989,10 @@ button.picker__today:focus {
     padding: 3px;
     border-top: 1px solid #d4d4d4;
     background-color: #d4d4d4;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), color-stop(.6, #dcdcdc), to(#d2d2d2));
-    background-image: -moz-linear-gradient(to bottom, #f5f5f5, #dcdcdc 60%, #d2d2d2);
-    background-image: -webkit-linear-gradient(180deg, #f5f5f5, #dcdcdc 60%, #d2d2d2);
-    background-image: linear-gradient(180deg, #f5f5f5, #dcdcdc 60%, #d2d2d2);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#353535), color-stop(.6, #242424), to(#212121));
+    background-image: -moz-linear-gradient(to bottom, #353535, #242424 60%, #212121);
+    background-image: -webkit-linear-gradient(180deg, #353535, #242424 60%, #212121);
+    background-image: linear-gradient(180deg, #353535, #242424 60%, #212121);
     -webkit-box-shadow: inset 1px 0 0 hsla(0, 0%, 100%, .7), inset -1px 0 0 hsla(0, 0%, 100%, .7), inset 0 1px 0 hsla(0, 0%, 100%, .7);
     -moz-box-shadow: inset 1px 0 0 hsla(0, 0%, 100%, .7), inset -1px 0 0 hsla(0, 0%, 100%, .7), inset 0 1px 0 hsla(0, 0%, 100%, .7);
     -o-box-shadow: inset 1px 0 0 hsla(0, 0%, 100%, .7), inset -1px 0 0 hsla(0, 0%, 100%, .7), inset 0 1px 0 hsla(0, 0%, 100%, .7);
@@ -9560,8 +9560,8 @@ button.picker__today:focus {
     display: block;
     overflow-x: auto;
     padding: .5em;
-    color: #383a42;
-    background: #fafafa
+    color: #a1a1a1;
+    background: #121212
 }
 
 .hljs-comment,
@@ -9640,7 +9640,7 @@ button.picker__today:focus {
 }
 
 #article article {
-    color: #424242;
+    color: #666;
     font-size: 18px;
     line-height: 1.7em;
     overflow-wrap: break-word
@@ -9652,7 +9652,7 @@ button.picker__today:focus {
 #article article h4,
 #article article h5,
 #article article h6 {
-    color: #212121
+    color: #aaa
 }
 
 #article article h1 strong,
@@ -9730,7 +9730,7 @@ button.picker__today:focus {
     font-size: .8em;
     white-space: pre;
     overflow: auto;
-    background: #f5f5f5;
+    background: #212121;
     border-radius: 3px
 }
 
@@ -9761,7 +9761,7 @@ button.picker__today:focus {
 }
 
 #article aside .tools .stats a {
-    color: #000;
+    color: #999;
     text-decoration: none
 }
 
